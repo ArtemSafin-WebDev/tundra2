@@ -1,0 +1,18 @@
+@import "_normalize";
+@import "_vars";
+@import "_fonts";
+@import "_mixins";
+
+@import "_default";
+
+// pages
+@import "main";
+
+// header
+@import "header";
+
+// footer
+@import "footer";
+
+@import "adaptive";
+

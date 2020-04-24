@@ -1,0 +1,346 @@
+<!doctype html> 
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Tundra</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/libs/slick.css">
+    <link rel="stylesheet" href="css/libs/slick-theme.css">
+    <link rel="stylesheet" href="css/libs/animate.css">
+    <link rel="stylesheet" href="css/libs/venobox.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+	<symbol id="icon-fb" viewBox="0 0 16 31">
+		<defs>
+	        <polygon id="path-1" points="0.144593814 0.0766922954 15.8659959 0.0766922954 15.8659959 30.0881535 0.144593814 30.0881535"></polygon>
+	    </defs>
+	    <g id="Design" stroke="none" stroke-width="1" fill-rule="evenodd">
+	        <g id="Artboard" transform="translate(-114.000000, -1003.000000)">
+	            <g id="Соцсети" transform="translate(50.000000, 1003.000000)">
+	                <g id="Group-6" transform="translate(64.000000, 0.000000)">
+	                    <mask id="mask-2">
+	                        <use xlink:href="#path-1"></use>
+	                    </mask>
+	                    <g id="Clip-5"></g>
+	                    <path d="M10.3491299,30.0881535 L10.3491299,16.398497 L14.9843464,16.398497 L15.6784495,11.0632315 L10.3491299,11.0632315 L10.3491299,7.65704707 C10.3491299,6.11257217 10.7816247,5.05964746 13.0160165,5.05964746 L15.8659959,5.05866632 L15.8659959,0.286574089 C15.3731299,0.221818974 13.6812536,0.0766105339 11.7134186,0.0766105339 C7.60438763,0.0766105339 4.7916866,2.5628145 4.7916866,7.12903125 L4.7916866,11.0632315 L0.144593814,11.0632315 L0.144593814,16.398497 L4.7916866,16.398497 L4.7916866,30.0881535 L10.3491299,30.0881535 Z" id="fb" mask="url(#mask-2)" class="st4"></path>
+	                </g>
+	            </g>
+	        </g>
+	    </g>
+	</symbol>
+
+	<symbol id="icon-google" viewBox="0 0 27 18">
+		<defs></defs>
+	    <g id="Design" stroke="none" stroke-width="1" fill-rule="evenodd">
+	        <g id="Artboard" transform="translate(-224.000000, -1010.000000)">
+	            <g id="Соцсети" transform="translate(50.000000, 1003.000000)">
+	                <g id="Group-2" transform="translate(174.000000, 7.000000)">
+	                    <polygon id="Fill-9" points="24.0512927 6.94880238 24.0512927 4 21.9488579 4 21.9488579 6.94880238 19 6.94880238 19 9.05119762 21.9488579 9.05119762 21.9488579 12 24.0512927 12 24.0512927 9.05119762 27 9.05119762 27 6.94880238"></polygon>
+	                    <path d="M9.19184828,7.19527631 L9.19184828,10.7886433 L14.1022923,10.7886433 C13.9502829,11.5441199 13.6418462,12.2370279 13.0953322,12.8216439 C11.1269003,14.9279621 7.45723924,14.9066246 5.35692402,12.7866696 C3.25644516,10.6665542 3.27935293,7.2480586 5.40830287,5.15617931 C7.43318608,3.16681638 10.6954161,3.08098499 12.6676114,4.97264453 L12.663848,4.97681578 L15.3402937,2.35246103 C11.7553913,-0.845439878 6.22496486,-0.796187102 2.73414802,2.58123777 C-0.877098244,6.07465534 -0.916041452,11.7833248 2.64693486,15.3239095 C6.20974755,18.8644942 12.3873185,18.8997894 15.7264532,15.3823069 C17.7416824,13.2591433 18.3214126,10.2141346 17.8406767,7.19527631 L9.19184828,7.19527631 Z" id="Fill-11"></path>
+	                </g>
+	            </g>
+	        </g>
+	    </g>
+	</symbol>
+
+	<symbol id="icon-instagram" viewBox="0 0 25 26">
+		<defs></defs>
+	    <g id="Design" stroke="none" stroke-width="1" fill-rule="evenodd">
+	        <g id="Artboard" transform="translate(-282.000000, -1006.000000)">
+	            <g id="Соцсети" transform="translate(50.000000, 1003.000000)">
+	                <g id="Group-4" transform="translate(232.000000, 3.000000)">
+	                    <path d="M12.5,0 C9.10523666,0 8.67959047,0.0150118497 7.34642497,0.0782012635 C6.01577711,0.141565234 5.10725076,0.361157175 4.3121853,0.682515492 C3.49009735,1.01469631 2.79305136,1.45929144 2.09801947,2.1819549 C1.40315542,2.90479292 0.975830816,3.62972561 0.656428332,4.48452826 C0.347432024,5.31157645 0.135951662,6.25645019 0.0753608593,7.64033327 C0.014434374,9.02683469 0,9.4695097 0,13.0000873 C0,16.5306649 0.014434374,16.9733399 0.0753608593,18.3600158 C0.135951662,19.7435498 0.347432024,20.6885981 0.656428332,21.5156463 C0.975830816,22.3704489 1.40315542,23.0955562 2.09801947,23.8180451 C2.79305136,24.5408831 3.49009735,24.9854783 4.3121853,25.3176591 C5.10725076,25.6390174 6.01577711,25.8587839 7.34642497,25.9217987 C8.67959047,25.9851627 9.10523666,26 12.5,26 C15.8949312,26 16.3205774,25.9851627 17.6537429,25.9217987 C18.9842229,25.8587839 19.8929171,25.6390174 20.6879825,25.3176591 C21.5100705,24.9854783 22.2071165,24.5408831 22.9019805,23.8180451 C23.5968446,23.0955562 24.024337,22.3704489 24.3435717,21.5156463 C24.6527358,20.6885981 24.8640483,19.7435498 24.9246391,18.3600158 C24.9855656,16.9733399 25,16.5306649 25,13.0000873 C25,9.4695097 24.9855656,9.02683469 24.9246391,7.64033327 C24.8640483,6.25645019 24.6527358,5.31157645 24.3435717,4.48452826 C24.024337,3.62972561 23.5968446,2.90479292 22.9019805,2.1819549 C22.2071165,1.45929144 21.5100705,1.01469631 20.6879825,0.682515492 C19.8929171,0.361157175 18.9842229,0.141565234 17.6537429,0.0782012635 C16.3205774,0.0150118497 15.8949312,0 12.5,0 M12.5,2.34237222 C15.8376972,2.34237222 16.2329641,2.35563851 17.5510238,2.41830425 C18.7697214,2.47608242 19.4316885,2.68764476 19.8721047,2.86586684 C20.455522,3.10169253 20.8719369,3.38342654 21.309332,3.83814594 C21.7468949,4.29321446 22.0176234,4.72628886 22.2445451,5.33304688 C22.4155757,5.79108285 22.6191675,6.47953326 22.6748909,7.74698722 C22.7349782,9.11777857 22.7477341,9.52885887 22.7477341,13.0000873 C22.7477341,16.4711411 22.7349782,16.882396 22.6748909,18.2531873 C22.6191675,19.5206413 22.4155757,20.2089171 22.2445451,20.6669531 C22.0176234,21.2738857 21.7468949,21.7069601 21.309332,22.1618541 C20.8719369,22.616748 20.455522,22.898482 19.8721047,23.1343077 C19.4316885,23.3123552 18.7697214,23.5242667 17.5510238,23.5820449 C16.2331319,23.644536 15.8378651,23.6576278 12.5,23.6576278 C9.16213494,23.6576278 8.76686808,23.644536 7.44897617,23.5820449 C6.23027862,23.5242667 5.56831151,23.3123552 5.12789527,23.1343077 C4.54447801,22.898482 4.12806311,22.616748 3.69066801,22.1618541 C3.25327291,21.7069601 2.98237664,21.2738857 2.75562269,20.6669531 C2.5844243,20.2089171 2.38083249,19.5206413 2.32527694,18.2531873 C2.26518966,16.882396 2.25226586,16.4711411 2.25226586,13.0000873 C2.25226586,9.52885887 2.26518966,9.11777857 2.32527694,7.74698722 C2.38083249,6.47953326 2.5844243,5.79108285 2.75562269,5.33304688 C2.98237664,4.72628886 3.25327291,4.29321446 3.69066801,3.8383205 C4.12806311,3.38342654 4.54447801,3.10169253 5.12789527,2.86586684 C5.56831151,2.68764476 6.23027862,2.47608242 7.44897617,2.41830425 C8.76703592,2.35563851 9.16230279,2.34237222 12.5,2.34237222" id="Fill-13"></path>
+	                    <path d="M12.499915,17.7192595 C10.1697151,17.7192595 8.28074052,15.8302849 8.28074052,13.499915 C8.28074052,11.1697151 10.1697151,9.28074052 12.499915,9.28074052 C14.8302849,9.28074052 16.7192595,11.1697151 16.7192595,13.499915 C16.7192595,15.8302849 14.8302849,17.7192595 12.499915,17.7192595 M12.499915,7 C8.91011544,7 6,9.91011544 6,13.499915 C6,17.0898846 8.91011544,20 12.499915,20 C16.0898846,20 19,17.0898846 19,13.499915 C19,9.91011544 16.0898846,7 12.499915,7" id="Fill-15"></path>
+	                    <path d="M21,5.49991608 C21,6.3285035 20.3284284,7 19.4999161,7 C18.6715716,7 18,6.3285035 18,5.49991608 C18,4.6714965 18.6715716,4 19.4999161,4 C20.3284284,4 21,4.6714965 21,5.49991608" id="Fill-17"></path>
+	                </g>
+	            </g>
+	        </g>
+	    </g>
+	</symbol>
+
+	<symbol id="icon-twitter" viewBox="0 0 27 23">
+		<defs></defs>
+	    <g id="Design" stroke="none" stroke-width="1" fill-rule="evenodd">
+	        <g id="Artboard" transform="translate(-169.000000, -1007.000000)">
+	            <g id="Соцсети" transform="translate(50.000000, 1003.000000)">
+	                <path d="M146,6.72246011 C145.006797,7.1842117 143.938982,7.49670336 142.8185,7.63693272 C143.962065,6.91806558 144.840505,5.78072541 145.254041,4.42443661 C144.183625,5.09014268 142.998284,5.57319278 141.73638,5.8335457 C140.726109,4.70489532 139.286209,4 137.693183,4 C134.633923,4 132.153679,6.59978072 132.153679,9.80631325 C132.153679,10.2615901 132.202771,10.7044286 132.297214,11.129206 C127.69337,10.887255 123.61181,8.57577082 120.87977,5.0628806 C120.402838,5.92027321 120.129748,6.9177248 120.129748,7.98179811 C120.129748,9.99612552 121.107671,11.7736136 122.594061,12.8146845 C121.686037,12.7843554 120.831817,12.5236617 120.085046,12.0883203 C120.084558,12.1126858 120.084558,12.1370512 120.084558,12.1615871 C120.084558,14.9746937 121.993913,17.3214482 124.527962,17.8549331 C124.063221,17.987495 123.57361,18.0585468 123.068718,18.0585468 C122.71175,18.0585468 122.364698,18.0220838 122.026261,17.9546101 C122.731094,20.2609826 124.776994,21.9399864 127.200995,21.9865023 C125.305294,23.5441898 122.916568,24.4724638 120.321561,24.4724638 C119.874214,24.4724638 119.433368,24.4448609 119,24.3908479 C121.451309,26.0388411 124.363295,27 127.491315,27 C137.680016,27 143.25203,18.1520898 143.25203,10.4795164 C143.25203,10.2276829 143.246666,9.97755323 143.235938,9.72844591 C144.31822,8.90956099 145.257455,7.88706236 146,6.72246011" id="Fill-7"></path>
+	            </g>
+	        </g>
+	    </g>
+	</symbol>
+
+	<symbol id="icon-vk" viewBox="0 0 31 18">
+		<defs>
+        	<polygon id="path-1" points="0 0.0966293456 30.9297924 0.0966293456 30.9297924 17.9799447 0 17.9799447"></polygon>
+	    </defs>
+	    <g id="Design" stroke="none" stroke-width="1" fill-rule="evenodd">
+	        <g id="Artboard" transform="translate(-50.000000, -1010.000000)">
+	            <g id="Соцсети" transform="translate(50.000000, 1003.000000)">
+	                <g id="Group-3" transform="translate(0.000000, 7.000000)">
+	                    <mask id="mask-2">
+	                        <use xlink:href="#path-1"></use>
+	                    </mask>
+	                    <g id="Clip-2"></g>
+	                    <path d="M15.1331505,17.9050091 L16.981687,17.9050091 C16.981687,17.9050091 17.5400099,17.8426636 17.8254682,17.5312636 C18.0879995,17.2452273 18.0794422,16.7083364 18.0794422,16.7083364 C18.0794422,16.7083364 18.043437,14.1943909 19.1944734,13.8239182 C20.329687,13.4591727 21.7871714,16.2535909 23.3315203,17.3285182 C24.4998328,18.1414636 25.3873693,17.9634273 25.3873693,17.9634273 L29.5179578,17.9050091 C29.5179578,17.9050091 31.6787547,17.7698455 30.6539786,16.0482273 C30.5700203,15.9075 30.0572286,14.7746455 27.5827182,12.4469182 C24.9924422,10.0107 25.3399005,10.4045727 28.4595984,6.19011818 C30.3596401,3.62364545 31.1191401,2.05682727 30.8817964,1.38591818 C30.6557547,0.746590909 29.2580099,0.9153 29.2580099,0.9153 L24.6075255,0.944754545 C24.6075255,0.944754545 24.2624891,0.897136364 24.0069005,1.05193636 C23.756963,1.20379091 23.5966349,1.55773636 23.5966349,1.55773636 C23.5966349,1.55773636 22.860062,3.54362727 21.8788797,5.23284545 C19.8080151,8.79651818 18.9797339,8.98519091 18.6413172,8.76379091 C17.8537234,8.24751818 18.0505411,6.69199091 18.0505411,5.5863 C18.0505411,2.13193636 18.5675307,0.6921 17.0440099,0.319172727 C16.5384839,0.195627273 16.1659995,0.114136364 14.8732026,0.100554545 C13.2135724,0.0835363636 11.8093693,0.105790909 11.0140255,0.500972727 C10.485088,0.763281818 10.0767599,1.34828182 10.3255672,1.38215455 C10.6329839,1.42322727 11.3288693,1.5723 11.6981245,2.08137273 C12.1749109,2.73837273 12.1579578,4.21420909 12.1579578,4.21420909 C12.1579578,4.21420909 12.4319526,8.28008182 11.5184214,8.78506364 C10.8914786,9.13131818 10.031713,8.42424545 8.18543698,5.19062727 C7.2394526,3.53446364 6.5253224,1.7037 6.5253224,1.7037 C6.5253224,1.7037 6.38759844,1.36153636 6.14185885,1.17842727 C5.84396823,0.956536364 5.42756719,0.886172727 5.42756719,0.886172727 L1.00796823,0.9153 C1.00796823,0.9153 0.344697396,0.934118182 0.101056771,1.2267 C-0.115781771,1.48688182 0.0837807292,2.02459091 0.0837807292,2.02459091 C0.0837807292,2.02459091 3.5435099,10.2285 7.4611349,14.3629364 C11.0540672,18.1537364 15.1331505,17.9050091 15.1331505,17.9050091" id="Fill-1" mask="url(#mask-2)"></path>
+	                </g>
+	            </g>
+	        </g>
+	    </g>
+	</symbol>
+
+	<symbol id="icon-youtube" viewBox="0 0 26 18">
+		<defs></defs>
+	    <g id="Design" stroke="none" stroke-width="1" fill-rule="evenodd">
+	        <g id="Artboard-Copy-7" transform="translate(-337.000000, -4086.000000)">
+	            <g id="Page-1" transform="translate(50.000000, 4079.000000)">
+	                <path d="M297.272992,19.5204891 L297.272992,12.3599193 L304.146828,15.9399622 L297.272992,19.5204891 Z M312.549951,9.89509068 C312.23162,8.5217622 311.100409,7.50882557 309.739544,7.35766749 C306.51547,7.00017942 303.252416,6.99856621 300.003817,7.00017942 C296.75473,6.99856621 293.491351,7.00017942 290.267439,7.35766749 C288.90625,7.50882557 287.775525,8.5217622 287.457682,9.89509068 C287.004872,11.8512731 287,13.985877 287,16.0001351 C287,18.0139092 287,20.1488357 287.452322,22.1050181 C287.770166,23.4781853 288.90089,24.4911219 290.262404,24.64228 C293.486154,24.9997681 296.749533,25.0017039 299.998295,24.9997681 C303.247218,25.0017039 306.510272,24.9997681 309.734185,24.6421187 C311.095374,24.4911219 312.226423,23.4781853 312.544592,22.1050181 C312.997239,20.1488357 313,18.0139092 313,16.0001351 C313,13.985877 313.002436,11.8512731 312.549951,9.89509068 Z" id="Fill-19"></path>
+	            </g>
+	        </g>
+	    </g>
+	</symbol>
+</svg> <!-- . -->
+
+<body class="hold">
+
+<div class="header">
+	<div class="header__logo">
+		<a href="index.html">
+			<object data='images/top-logo.svg' type='image/svg+xml'></object>
+		</a>
+
+		<div class="header__sign header__sign-breadcrumbs">
+			<h5><a href="#">МЕДИАТЕКА</a><a href="#">The Coachella 2018 Art Installations</a></h5>
+		</div> <!-- .header__sign -->
+	</div> <!-- .header__logo -->
+
+	<div class="header__menu">
+		<span>Меню</span>
+
+		<button class="header__menu-burger">
+			<i></i>
+			<i></i>
+			<i></i>
+		</button>
+	</div> <!-- .header__menu -->
+</div> <!-- .header -->
+
+<div class="media event">
+	<a href="#" class="btn-back btn-bordered wow fadeInUp">Назад к альбомам</a>
+
+	<div class="media__in">
+		<div class="media__top jarallax">
+			<img src="images/name_event/top.jpg" alt="" class="jarallax-img">
+
+			<div class="media__top-in">
+				<div class="media__headline">
+					<h3 class="wow fadeInUp">The Coachella 2018 Art Installations</h3>
+					<p class="date wow fadeInUp">31.08.2018</p>
+					<!-- <a href="#" class="btn btn-blue">Приключения</a> -->
+
+					<div class="media__tags">
+						<a href="#" class="media__tag active wow fadeInUp">Приключения</a>
+					</div> <!-- .media__tags -->
+
+					<p class="wow fadeInUp">Festival decorations, festival stages, festival art, festival sculptures, festival fashion, festival costumes, festival structures, festival flags.</p>
+				</div> <!-- .media__headline -->
+
+				
+			</div> <!-- .media__top-in -->
+		</div> <!-- .media__top -->
+
+		<div class="media__items">
+			<a href="images/name_event/1.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/1.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/2.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/2.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/3.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/3.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/4.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/4.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/5.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/5.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/6.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/6.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/7.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/7.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/8.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/8.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/9.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/9.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/10.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/10.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/11.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/11.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/12.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/12.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/13.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/13.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/14.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/14.jpg" alt="">
+			</a> <!-- .media__item -->
+
+			<a href="images/name_event/6.jpg" class="media__item venobox wow fadeInUp" data-gall="event">
+				<img src="images/name_event/6.jpg" alt="">
+			</a> <!-- .media__item -->
+		</div> <!-- .media__items -->
+
+		<div class="event__bottom wow fadeInUp">
+			<div class="btn btn-bordered">Показать еще</div>
+		</div> <!-- .events__bottom -->
+	</div> <!-- .media__in -->
+</div> <!-- .media -->
+
+<div class="before__footer">
+	<div class="before__footer-item before__footer-l">
+		<a href="#">Посмотреть продукцию компании</a>
+
+		<img src="images/about/bottom-1.jpg" alt="">
+	</div> <!-- .before__footer-l -->
+
+	<div class="before__footer-item before__footer-r">
+		<a href="#">Посмотреть рецепты коктейлей с продукцией «TUNDRA»</a>
+
+		<img src="images/about/bottom-2.jpg" alt="">
+	</div> <!-- .before__footer-r -->
+</div> <!-- .before__footer -->
+
+<div class="footer footer__classic">
+	<div class="wrapper">
+		<div class="footer__socials">
+			<a href="#" class="footer__socials-item vk">
+				<svg class="icon__social icon__vk">
+				   	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk" xml:space="preserve"></use>
+				</svg>
+			</a>
+
+			<a href="#" class="footer__socials-item fb">
+				<svg class="icon__social icon__fb">
+				   	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb" xml:space="preserve"></use>
+				</svg>
+			</a>
+
+			<a href="#" class="footer__socials-item tw">
+				<svg class="icon__social icon__twitter">
+				   	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-twitter" xml:space="preserve"></use>
+				</svg>
+			</a>
+
+			<a href="#" class="footer__socials-item google">
+				<svg class="icon__social icon__google">
+				   	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-google" xml:space="preserve"></use>
+				</svg>
+			</a>
+
+			<a href="#" class="footer__socials-item instagram">
+				<svg class="icon__social icon__instagram">
+				   	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-instagram" xml:space="preserve"></use>
+				</svg>
+			</a>
+
+			<a href="#" class="footer__socials-item youtube">
+				<svg class="icon__social icon__youtube">
+				   	<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-youtube" xml:space="preserve"></use>
+				</svg>
+			</a>
+		</div> <!-- .footer__socials -->
+
+		<div class="footer__copy">
+			<p>Разработано в</p>
+			<a href="#"><img src="images/icons/made.png" alt="лого разработчиков"></a>
+		</div> <!-- .footer__copy -->
+	</div>
+</div> <!-- .footer -->
+
+<div class="menu">
+	<div class="menu__in">
+		<ul class="list-unstyled">
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="about.html">О нас</a></li>
+			<li><a href="production.html">Продукция</a></li>
+			<li><a href="cocktails.html">Коктейли</a></li>
+			<li><a href="media.html">Медиатека</a></li>
+			<li><a href="contact.html">Контакты</a></li>
+		</ul>
+	</div> <!-- .menu__in -->
+</div> <!-- .menu -->
+
+<div class="preloader">
+	<div class="loader">
+		<div class="circle item0"></div>
+		<div class="circle item1"></div>
+		<div class="circle item2"></div>
+	</div> <!-- .loader -->
+</div> <!-- .preloader -->
+
+<script src="js/libs/jquery.min.js"></script>
+<script src="js/libs/jarallax-element.min.js"></script>
+<script src="js/libs/jarallax.min.js"></script>
+
+<script src="js/libs/jquery.fullPage.min.js"></script>
+<script src="js/libs/slick.min.js"></script>
+<script src="js/libs/wow.min.js"></script>
+<script src="js/libs/venobox.min.js"></script>
+<script src="js/app.js"></script>
+
+<script>
+	$(document).ready(function(){
+	    $('.venobox').venobox({
+	        bgcolor: '#5dff5e',         // default: '#fff'
+	        titleattr: 'data-title',    // default: 'title'
+	        numeratio: false,            // default: false
+	        infinigall: true            // default: false
+	    });
+	});
+</script>
+
+</body>
+</html>

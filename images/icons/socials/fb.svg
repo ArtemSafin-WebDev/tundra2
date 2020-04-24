@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="31px" viewBox="0 0 16 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>8B5C27A3-D249-4085-887A-E5C4232BCCA4</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0.144593814 0.0766922954 15.8659959 0.0766922954 15.8659959 30.0881535 0.144593814 30.0881535"></polygon>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-114.000000, -1003.000000)">
+            <g id="Соцсети" transform="translate(50.000000, 1003.000000)">
+                <g id="Group-6" transform="translate(64.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <path d="M10.3491299,30.0881535 L10.3491299,16.398497 L14.9843464,16.398497 L15.6784495,11.0632315 L10.3491299,11.0632315 L10.3491299,7.65704707 C10.3491299,6.11257217 10.7816247,5.05964746 13.0160165,5.05964746 L15.8659959,5.05866632 L15.8659959,0.286574089 C15.3731299,0.221818974 13.6812536,0.0766105339 11.7134186,0.0766105339 C7.60438763,0.0766105339 4.7916866,2.5628145 4.7916866,7.12903125 L4.7916866,11.0632315 L0.144593814,11.0632315 L0.144593814,16.398497 L4.7916866,16.398497 L4.7916866,30.0881535 L10.3491299,30.0881535 Z" id="fb" fill="#FEFEFE" mask="url(#mask-2)" class="st4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,425 @@
+@media (min-width: 1600px) {
+    .media-slider .slick-prev {
+        left: 65px;
+    }
+
+    .media-slider .slick-next {
+        right: 65px;
+    }
+
+    .event-item {
+        padding-bottom: 20vw;
+    }
+
+    .cocktails-item {
+        width: 20%;
+    }
+}
+
+
+@media (min-width: 1440px) and (max-width: 1599px) {
+    .event-item {
+        padding-bottom: 25vw;
+    }
+
+    .cocktails-item {
+        width: 25%;
+    }
+}
+
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    .event-item {
+        padding-bottom: 33.33vw;
+    }
+
+    .cocktails-item {
+        width: 33.33%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1279px) {
+    .event-item {
+        padding-bottom: 50vw;
+    }
+
+    .cocktails-item {
+        width: 50%;
+    }
+}
+
+
+@media (max-width: 1599px) and (min-width: 1025px) {
+    .media-slider .slick-prev {
+        left: 30px;
+    }
+
+    .media-slider .slick-next {
+        right: 30px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .cocktails-items .title-items::after {
+        left: 20px;
+    }
+
+    .cocktails-items .title-items {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .production-header .cnt-header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .event-header .cnt-header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header__back-link::before {
+        top: 8px;
+        left: 13px;
+    }
+
+    .production-header .back-link::before {
+        left: 13px;
+        top: 8px;
+    }
+
+    .header__back-link {
+        font-size: 13px;
+        padding: 11px 15px 11px 44px;
+        margin-left: 20px;
+    }
+
+    .production-header .back-link {
+        font-size: 13px;
+        left: 20px;
+        top: 97px;
+        padding: 11px 15px 11px 44px;
+    }
+
+    .media-items .title-items {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .media-slider .slick-prev {
+        left: 20px;
+    }
+
+    .media-slider .slick-next {
+        right: 20px;
+    }
+
+    .media-items .title-items::after {
+        left: 20px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .cocktails-items .title-items::after {
+        left: 117px;
+    }
+
+    .header__back-link::before {
+        top: 15px;
+        left: 23px;
+    }
+
+    .header__back-link {
+        font-size: 18px;
+        padding: 15px 21px 15px 54px;
+        margin-left: 20px;
+    }
+
+    .production-header .back-link {
+        left: 117px;
+        top: 127px;
+        font-size: 18px;
+        padding: 15px 21px 15px 54px;
+    }
+
+    .production-header .back-link::before {
+        left: 23px;
+        top: 15px;
+    }
+
+    .media-items .title-items::after {
+        left: 117px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .cocktails-item {
+        width: 100%;
+    }
+
+    .event-item {
+        padding-bottom: 50vw;
+    }
+
+    .media-item {
+        min-height: calc(100vh - 126px);
+    }
+}
+
+
+@media (max-width: 767px) and (min-width: 481px) {
+    .cocktails-items .title-items {
+        font-size: 34px;
+    }
+
+    .production-header .title-header {
+        font-size: 36px;
+    }
+
+    .media-items .title-items {
+        top: 97px;
+        font-size: 36px;
+    }
+
+    .event-header .title-header {
+        font-size: 36px;
+    }
+}
+
+
+@media (min-width: 481px) {
+    .header__sign h5 {
+        font-size: 22px;
+    }
+
+    .production-header .type-header {
+        font-size: 20px;
+    }
+
+    .header__back-link {
+        position: relative;
+    }
+
+    .event-header {
+        min-height: 70vh;
+    }
+
+    .media-slider .slick-prev,
+    .media-slider .slick-next {
+        width: 36px;
+        height: 50px;
+    }
+
+    .media-slider .slick-prev::before,
+    .media-slider .slick-next::before {
+        width: 36px;
+        height: 50px;
+        margin: -25px 0 0 -18px;
+    }
+
+    .media-item .type-item {
+        font-size: 20px;
+    }
+
+    .media-item .title-item {
+        font-size: 34px;
+    }
+
+    .production-header .title-header {
+        margin-bottom: 47px;
+        padding-bottom: 26px;
+    }
+
+    .production-header .cnt-header p {
+        font-size: 20px;
+    }
+
+    .production-header .cnt-header ul li {
+        font-size: 20px;
+    }
+
+    .cocktails-items .title-items {
+        top: 63px;
+    }
+
+    .cocktails-item .type-item {
+        font-size: 20px;
+    }
+
+    .cocktails-item .title-item {
+        font-size: 34px;
+    }
+
+    .cocktails-item {
+        min-height: 100vh;
+    }
+
+    .production-header .cnt-header ul li::before {
+        top: 1px;
+    }
+
+    .event-header .cnt-header p {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .header__sign h5 {
+        font-size: 18px;
+    }
+
+    .event-header .cnt-header p {
+        font-size: 14px;
+    }
+
+    .production-header .cnt-header ul li {
+        padding-left: 30px;
+    }
+
+    .production-header .cnt-header ul li::before {
+        top: -2px;
+    }
+
+    .production-header {
+        padding-top: 173px;
+    }
+
+    .cocktails-item {
+        min-height: 85vh;
+    }
+
+    .cocktails-item .title-item {
+        font-size: 22px;
+    }
+
+    .cocktails-item .type-item {
+        font-size: 14px;
+    }
+
+    .cocktails-item .cnt-item {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 47px;
+    }
+
+    .cocktails-items .title-items {
+        top: 37px;
+        padding-bottom: 18px;
+    }
+
+    .production-header .inner-header {
+        padding-bottom: 67px;
+    }
+
+    .production-header .cnt-header ul li {
+        font-size: 14px;
+    }
+
+    .production-header .cnt-header p {
+        font-size: 14px;
+    }
+
+    .production-header .title-header {
+        padding-bottom: 18px;
+        margin-bottom: 27px;
+    }
+
+    .production-header .type-header {
+        font-size: 14px;
+    }
+
+    .cocktails-items .title-items {
+        font-size: 22px;
+    }
+
+    .production-header .title-header {
+        font-size: 24px;
+    }
+
+    .header__back-link {
+        position: absolute;
+        left: -20px;
+        top: 100%;
+        white-space: nowrap;
+        margin-top: 20px;
+    }
+
+    .header__logo {
+        position: relative;
+    }
+
+    .event-header {
+        min-height: 70vh;
+    }
+
+    .event-header {
+        padding-bottom: 47px;
+    }
+
+    .event-header .title-header {
+        font-size: 24px;
+    }
+
+    .media-item .title-item {
+        font-size: 22px;
+    }
+
+    .media-item .type-item {
+        font-size: 14px;
+    }
+
+    .media-item .cnt-item {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 37px;
+    }
+
+    .media-slider .slick-prev,
+    .media-slider .slick-next {
+        width: 26px;
+        height: 40px;
+    }
+
+    .media-slider .slick-prev::before,
+    .media-slider .slick-next::before {
+        width: 26px;
+        height: 40px;
+        margin: -20px 0 0 -13px;
+    }
+
+    .media-items .title-items {
+        top: 107px;
+        font-size: 24px;
+        padding-bottom: 18px;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .cocktails-items .title-items {
+        font-size: 50px;
+    }
+
+    .production-header .title-header {
+        font-size: 60px;
+    }
+
+    .event-header .title-header {
+        font-size: 60px;
+    }
+
+    .media-item {
+        min-height: calc(100vh - 90px);
+    }
+
+    .media-items .title-items {
+        top: 209px;
+        font-size: 60px;
+    }
+}

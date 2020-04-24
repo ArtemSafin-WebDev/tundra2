@@ -1,0 +1,17 @@
+@mixin clearfix {
+  &:after {
+  	content: ' ';
+  	
+    visibility: hidden;
+    display: block;
+ 	height: 0;
+ 	
+    clear: both;
+  }
+}
+
+@mixin placeholder-all {
+    &.placeholder { @content }
+    &:-moz-placeholder { @content }
+    &::-webkit-input-placeholder { @content }
+}
