@@ -35,11 +35,26 @@
 
     .cocktails-item {
         width: 33.33%;
+
+
+        width: 25%;
     }
 }
 
 
-@media (min-width: 768px) and (max-width: 1279px) {
+
+@media (min-width: 968px) and (max-width: 1279px) {
+    .event-item {
+        padding-bottom: 50vw;
+    }
+
+    .cocktails-item {
+        width: 33.33%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 967px) {
     .event-item {
         padding-bottom: 50vw;
     }
@@ -256,7 +271,7 @@
     }
 
     .cocktails-item {
-        min-height: 100vh;
+        min-height: 70vh;
     }
 
     .production-header .cnt-header ul li::before {
@@ -265,6 +280,13 @@
 
     .event-header .cnt-header p {
         font-size: 20px;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .cocktails-item {
+        min-height: 100vh;
     }
 }
 
