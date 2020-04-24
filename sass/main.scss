@@ -942,7 +942,9 @@ object {
     list-style: none;
     padding: 0;
     margin: 0;
-    margin-top: 60px;
+	margin-top: 60px;
+	position: relative;
+	z-index: 100;
 }
 
 .home-contacts__social-list-item {
