@@ -2,10 +2,42 @@ body {
     -webkit-font-smoothing: antialiased;
     -ms-overflow-x: hidden;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 object {
     pointer-events: none;
+}
+
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.media,
+.contacts {
+    flex-grow: 1;
+}
+
+
+.contacts__bg img {
+    opacity: 0;
+}
+
+
+.contacts__bg::after {
+    background: #060a1f;
+}
+
+
+.contacts__in {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 /* *** */
@@ -812,27 +844,27 @@ object {
         width: 100%;
         padding: 20px;
     }
-    &::before,
-    &::after {
-        content: '';
-        position: absolute;
-        left: 50%;
-        width: 1px;
-        height: 100%;
-        top: 0;
-        background-color: rgba(white, 0.3);
-        pointer-events: none;
-        z-index: -1;
+    // &::before,
+    // &::after {
+    //     content: '';
+    //     position: absolute;
+    //     left: 50%;
+    //     width: 1px;
+    //     height: 100%;
+    //     top: 0;
+    //     background-color: rgba(white, 0.3);
+    //     pointer-events: none;
+    //     z-index: -1;
 
-        @media screen and (max-width: 1024px) {
-            display: none;
-        }
-    }
+    //     @media screen and (max-width: 1024px) {
+    //         display: none;
+    //     }
+    // }
 
-    &::after {
-        left: auto;
-        right: 0;
-    }
+    // &::after {
+    //     left: auto;
+    //     right: 0;
+    // }
 }
 
 .home-contacts {
@@ -2860,6 +2892,7 @@ object {
         -webkit-align-items: center;
         align-items: center;
         padding-bottom: 80px;
+        
     }
 
     &__r {
@@ -3022,7 +3055,7 @@ object {
 .contacts {
     padding-top: 150px;
     padding-bottom: 80px;
-    min-height: 100vh;
+   
     // background: url('../images/contacts/bg.jpg') center center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -3031,10 +3064,12 @@ object {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 
-    @media (min-width: 1920px) {
-        min-height: calc(100vh - 90px);
-    }
+    // @media (min-width: 1920px) {
+    //     min-height: calc(100vh - 90px);
+    // }
 
     &__bg {
         position: absolute;
@@ -3184,6 +3219,9 @@ object {
     }
 
     & > .wrapper {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
         @media (min-width: 1025px) {
             max-width: 100%;
             padding-left: 30px;
@@ -4856,6 +4894,7 @@ object {
         -webkit-flex-direction: column-reverse;
         -ms-flex-direction: column-reverse;
         flex-direction: column-reverse;
+
     }
 
     .contacts__items {
