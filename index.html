@@ -253,7 +253,7 @@
 				</div>
 				<!-- .dec -->
 
-				<a class="goto" href="#production">
+				<a class="goto js-next-fullpage-slide" href="#">
 					<span>Перейти к продукции</span>
 
 					<object data='images/icons/goto.svg' type='image/svg+xml' class="bouncer"></object>
@@ -851,6 +851,14 @@
 						$('.slide__counter-total span').html('0' + $('.fp-section').length);
 					}
 				});
+
+
+				var nextFullPageSlide = document.querySelector('.js-next-fullpage-slide');
+
+				nextFullPageSlide.addEventListener('click', function(event) {
+					event.preventDefault();
+					$.fn.fullpage.moveSectionDown();
+				})
 			});
 		</script>
 
